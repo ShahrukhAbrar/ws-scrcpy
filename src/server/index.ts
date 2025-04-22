@@ -84,7 +84,7 @@ async function loadApplModules() {
     const { QVHStreamProxy } = await import('./appl-device/mw/QVHStreamProxy');
     mw2List.push(QVHStreamProxy);
     /// #endif
-    mw2List.push(WebDriverAgentProxy);
+    //mw2List.push(WebDriverAgentProxy);
 }
 loadPlatformModulesPromises.push(loadApplModules());
 /// #endif
